@@ -94,7 +94,7 @@ int main()
             printf("The allowed commands are:\n");
             for (int i = 0; i < N; i++)
             {
-                printf("%s\n", allowed[i]); // show allowed commands
+				printf("%d: %s\n", i + 1, allowed[i]); // show allowed commands with line numbers
             }
             continue; // skip to next command entry
         }
